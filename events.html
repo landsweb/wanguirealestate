@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <link rel="stylesheet" href="aboutme.css" />
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#000000"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="awards.html">AWARDS</a></li>
+        <li><a href="lands.html">PROJECTS</a></li>
+        <li><a href="smedia.html">CONTACT ME</a></li>
+        <li><a href="aboutme.html">ABOUT ME</a></li>
+        <li>
+          <a href="https://wa.me/c/254769870744">
+            <button class="nav-btn">Buy lands</button>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li><img src="images/logo.png " height="50px" alt="" /></li>
+        <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+        <li class="hideOnMobile"><a href="events.html">EVENTS</a></li>
+        <li class="hideOnMobile"><a href="awards.html">AWARDS</a></li>
+        <li class="hideOnMobile"><a href="lands.html">PROJECTS</a></li>
+        <li class="hideOnMobile"><a href="smedia.html">CONTACT ME</a></li>
+        <li class="hideOnMobile"><a href="aboutme.html">ABOUT ME</a></li>
+        <li>
+          <a href="https://wa.me/c/254769870744">
+            <button class="nav-btn">Buy lands</button>
+          </a>
+        </li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#000000"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+    <div class="wrapper">
+      <div class="box">
+        <h2>EVENTS</h2>
+        <p>
+          In my working experience, I have been to several work related events
+          including: launching of new pieces of land, award receiving dinners,
+          title deed issuing, day in the office, work related dinners,
+          work-mates birthday parties, tree planting and many more.
+        </p>
+        <div class="photos">
+          <img src="images/event (2).jpg" alt="" />
+          <img src="images/event (4).jpg" alt="" />
+          <img src="images/event (1).jpg" alt="" />
+          <img src="images/event (7).jpg" alt="" />
+          <img src="images/event (9).jpg" alt="" />
+          <img src="images/event (3).jpg" alt="" />
+          <img src="images/event (10).jpg" alt="" />
+          <img src="images/event (8).jpg" alt="" />
+          <img src="images/event (6).jpg" alt="" />
+          <img src="images/event (5).jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

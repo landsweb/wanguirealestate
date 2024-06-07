@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body{
+    font-family: system-ui;
+    width: 90%;
+    margin-inline: auto;
+    background: linear-gradient( to bottom right,white, green 49%, red 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.box {
+    border: 1px transparent;
+    border-radius: 6%;
+    padding: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+.fa-instagram{
+    
+    color:  red;
+}
+.fa-whatsapp{
+    
+    color: black;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-tiktok{
+    color: black;
+}

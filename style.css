@@ -183,6 +183,7 @@ nav li:first-child{
 @media only screen and (max-width: 600px){
     .background{
         width: 100%;
+        height: max-content;
         right: auto;
         position: relative;
         margin-top: 1px;

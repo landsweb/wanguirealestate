@@ -100,7 +100,7 @@ nav li:first-child{
     min-height: auto;
 }
 .background{
-    min-height: 97vh;
+    min-height: 86vh;
     justify-content: flex-start;
 }
 .header h1{
